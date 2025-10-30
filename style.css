@@ -1,0 +1,33 @@
+/* Fundo do body para o tema principal */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb; /* Fundo Light Mode (quase branco) */
+            transition: background-color 0.3s;
+        }
+        /* Definição do Fundo Dark Mode (gray-900) */
+        .dark body {
+            background-color: #111827; /* Gray-900 para o fundo mais escuro */
+        }
+
+        /* Cores de Prioridade (mantidas constantes para clareza) */
+        .priority-1 { color: #db4c3f; }
+        .priority-2 { color: #fcc200; }
+        .priority-3 { color: #2563eb; }
+        .priority-4 { color: #888888; }
+        
+        /* Oculta a barra de rolagem */
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Classes de Transição da Sidebar para Mobile */
+        .sidebar-mobile-hidden {
+            transform: translateX(-100%);
+        }
+        .sidebar-mobile-visible {
+            transform: translateX(0);
+        }
