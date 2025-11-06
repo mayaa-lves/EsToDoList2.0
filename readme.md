@@ -39,10 +39,9 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [LINK_DO_SEU_REPOSITORIO]
+    git clone (https://github.com/mayaa-lves/EsToDoList2.0.git)
     cd EsToDoList
     ```
-    *(Substitua `[LINK_DO_SEU_REPOSITORIO]` pelo link real do seu projeto.)*
 
 2.  **Abra o Arquivo Principal:**
     Simplesmente abra o arquivo `index.html` em seu navegador de preferência.
@@ -53,5 +52,6 @@ Para executar este projeto localmente, siga os passos abaixo:
     * Use o campo de **Pesquisa** ou os **Botões de Filtro** para navegar pela sua lista.
 
 ---
+
 
 <p align="center">Desenvolvido com 💛 para praticar e aprimorar as habilidades de Front-end.</p>
